@@ -4,4 +4,5 @@
   height: 1080px;
   display: flex;
   flex-direction: column-reverse;
+  font-family: 'Inter', sans-serif;
 }

@@ -5,7 +5,7 @@
 .bubble-content {
   max-width: 600px;
   display: inline-block;
-  border-radius: 30px;
+  border-radius: 16px;
   padding: 12px 20px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -17,7 +17,7 @@
   position: relative;
 }
 
-.bubble:last-child .bubble-content:before,
+/* .bubble:last-child .bubble-content:before,
 .bubble:nth-last-child(2) .bubble-content:before {
   content: '';
   position: absolute;
@@ -28,7 +28,7 @@
   width: 30px;
   background: #eee;
   border-bottom-right-radius: 20px;
-}
+} */
 
 .bubble:last-child .bubble-content:after,
 .bubble:nth-last-child(2) .bubble-content:after {
